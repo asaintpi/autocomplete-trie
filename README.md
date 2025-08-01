@@ -12,7 +12,7 @@ I had discussed and coded up a brute force solution for this, which worked but c
 - Comments and resources I actually used to learn the Trie pattern.
 
 **Key takeaways:**  
-The core design is a Trie (prefix tree), with each node maintaining a heap of the top K phrases passing through that prefix. Insertion is a bit heavier, but lookup is lightning fast.
+The core design is a Trie, with each node maintaining a heap of the top K phrases passing through that prefix. Insertion is a bit heavier, but lookup is lightning fast.
 
 **Core Design Takeaway:**
 The key to this system's performance is the trade off made during insertion. By augmenting each Trie node with a heap, we do more work upfront (O(L * logK)) to make query time exceptionally fast (O(P + K*logK)). This repository is both a technical solution and a record of my process for rapidly mastering and implementing a new, complex data structure.
