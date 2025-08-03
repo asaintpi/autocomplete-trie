@@ -1,4 +1,6 @@
 # Autocomplete System: Brute Force vs Trie + Heap
+*Note: An odd typo/deletion on bruteforce code ln48, the code in interview contained '... == prefix' or '.startswith(prefix)'. Bruteforce was typed
+for clarity and as a reference point - not for functionality in the code.
 
 This repo contains my full implementation of a high performance autocomplete system, born from a fascinating technical problem I encountered.
 
